@@ -1,0 +1,21 @@
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE "db/development"."sqlite3" ENCODING = 'utf8'[0m
+  ↳ bin/rails:9
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE "db/development"."sqlite3" ENCODING = 'utf8'[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (373.5ms)[0m  [1m[35mCREATE DATABASE "project_name_development" ENCODING = 'utf8'[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (11.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4357788865591779555)[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+Migrating to CreatePeopleTable (20181107152258)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(4357788865591779555)[0m
+  ↳ /Users/cjewett_work/.rbenv/versions/2.3.1/bin/rake:23
